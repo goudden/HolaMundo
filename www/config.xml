@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns = "http://www.w3.org/ns/widgets"
+    xmlns:gap = "http://phonegap.com/ns/1.0"
+    id        = "com.goudden.holamundo"
+    version   = "1.1.0">
+
+<!---<name>PhoneGap Build Application</name> --->
+<name>HolaMundo</name>
+
+<description>
+Pruebas for code
+</description>
+
+<author href="https://example.com" email="goudden@gmail.com">
+Goudden
+</author>
+
+<!---PErmisos API File --->
+<plugin name="File" value="org.apache.cordova.FileUtils" />
+<plugin name="FileTransfer" value="org.apache.cordova.FileTransfer" />
+<plugin name="Camera" value="org.apache.cordova.CameraLauncher" />
+<plugin name="Storage" value="org.apache.cordova.Storage" />
+
+<!---Platforms to BUILD --->
+<gap:platform name="android" />
+<!---Incluir Plugins --->
+<gap:plugin name="org.apache.cordova.camera" version="0.2.4" />
+<gap:plugin name="org.apache.cordova.file" version="1.0.1" />
+<gap:plugin name="org.apache.cordova.file-transfer" version="0.4.2" />
+
+
+</widget>
+
